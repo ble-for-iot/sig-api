@@ -1,0 +1,15 @@
+{
+  "name": "sig-api",
+  "version": "1.0.0",
+  "description": "Implementation of BLE IoT Gateway API proposed by Bluetooth SIG White Paper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abun_kobucom",
+  "license": "GPL",
+  "dependencies": {
+    "express": "^4.17.1",
+    "noble": "^1.9.1"
+  }
+}
