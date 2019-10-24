@@ -109,7 +109,9 @@ See **ev** folder for screen shots taken when running the gateway.
 
 ## Introducing alternative API design
 
-See [ALT API](../ble-for-iot/alt-api/alt-api.html).
+See:
+- [ALT API](http://www.kobu.com/ble-for-iot/alt-api.html)
+- [Reference Implementation](https://github.com/ble-for-iot/alt-api)
 
 The purpose of this experiment was to find a good api set for web developers unfamiliar with IoT edge devices like ones that uses BLE radio.
 

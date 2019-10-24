@@ -553,7 +553,11 @@ data: &lt;event n data&gt;
 <p><strong>index.js</strong> uses the express module to accept web requests and dispatches API service functions in <strong>api-impl.js</strong>. The functions in api-impl.js further calls ble device access functions in <strong>ble-impl-noble.js</strong>, an implementation using the noble module.</p>
 <p>See <strong>ev</strong> folder for screen shots taken when running the gateway.</p>
 <h2 id="introducing-alternative-api-design">Introducing alternative API design</h2>
-<p>See <a href="../ble-for-iot/alt-api/alt-api.html">ALT API</a>.</p>
+<p>See:</p>
+<ul>
+<li><a href="http://www.kobu.com/ble-for-iot/alt-api.html">ALT API</a>.</li>
+<li><a href="https://github.com/ble-for-iot/alt-api">Reference Implementation</a>.</li>
+</ul>
 <p>The purpose of this experiment was to find a good api set for web developers unfamiliar with IoT edge devices like ones that uses BLE radio.</p>
 <p>The Bluetooth-SIG proposed API is good for developers familiar with BLE technoloty or when porting an existing BLE-based application to a web-based application.</p>
 <p>The SIG API is designed with one-to-one correspondence between the web API requests and functionalities provided by BLE protocols. The API requires a knowledge of BLE-specific data transactions.</p>
