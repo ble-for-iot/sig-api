@@ -1,6 +1,6 @@
 # ble-for-iot/sig-api - Implementation of BLE IoT Gateway API proposed by Bluetooth SIG White Paper
 
-A BLE IoT gateway (ble-iot-gwy) provides web access to nearby Bluetooth Low Energy (BLE) devices on the local LAN or remote BLE devices via Internet.
+A BLE IoT gateway (ble-iot-gwy) provides web access to nearby Bluetooth Low Energy (BLE) devices via the local LAN or remote BLE devices via Internet.
 
 This is an experimental and partial implementation of web api interface based on GATT REST API design proposed by a Bluetooth SIG white paper.
 
